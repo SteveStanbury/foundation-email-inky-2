@@ -42,7 +42,7 @@ $global-breakpoint: $global-width + $global-gutter;
 // -------
 
 $grid-column-count: 12;
-$column-padding-bottom: $global-padding;
+$column-padding-bottom:0;
 $container-radius: 0;
 
 // 3. Block Grid
@@ -144,4 +144,3 @@ $thumbnail-shadow: 0 0 0 1px rgba($black, 0.2);
 $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
-

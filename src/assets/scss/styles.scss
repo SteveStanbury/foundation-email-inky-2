@@ -1,1 +1,20 @@
 // Set up our own styles here.
+.menu-backing {background-color: #333;}
+
+.container {background-color: white;}
+.menu a {text-transform: uppercase; font-size: 12px; font-weight: bold; color:#1C3B54!important;}
+.header-hero {background-color: #1C3B54; padding:0 10px 0 10px!important;
+  h2 {color:white; font-weight:100;
+  span{text-decoration: underline; font-weight: bold;}
+}
+}
+
+
+.button {
+  padding:12px;
+  color:white!important;
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
